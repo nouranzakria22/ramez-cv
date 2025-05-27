@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramez Mohamed - CV</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #e8eff7;
+            color: #000;
+            overflow-y: scroll;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+            animation: fadeIn 2s ease;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid navy;
+            transition: 0.5s;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: navy;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info i {
+            color: navy;
+            margin-right: 10px;
+            transition: 0.3s;
+        }
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: navy;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #4169e1;
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" data-aos="fade-up">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic" data-aos="zoom-in">
+
+        <h1 data-aos="fade-down">Ramez Mohamed</h1>
+        <h2 data-aos="fade-down">Business Administration | Information Systems</h2>
+
+        <div class="section" data-aos="fade-right">
+            <h2>About Me</h2>
+            <p>Seeking to work in the marketing field to develop my skills and contribute to the success of the organization.</p>
+        </div>
+
+        <div class="section" data-aos="fade-left">
+            <h2>Education</h2>
+            <p>Bachelor of Business Administration, Information Systems Department - Future Academy<br>
+            High School Diploma</p>
+        </div>
+
+        <div class="section" data-aos="fade-right">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Vodafone Call Center (since 2020)</li>
+                <li>Delivery Representative at Tosila Company</li>
+                <li>Freelance Work</li>
+                <li>Real Estate - 3 months at The Address Company</li>
+            </ul>
+        </div>
+
+        <div class="section" data-aos="fade-left">
+            <h2>Skills</h2>
+            <ul>
+                <li>Customer Service</li>
+                <li>Sales & Marketing</li>
+                <li>Communication Skills</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+
+        <div class="section contact-info" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <p><i class="fas fa-phone"></i> 01026287818</p>
+            <p><i class="fas fa-envelope"></i> ramezmohamed53@gmail.com</p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: 01026287818</p>
+        </div>
+
+        <div class="social-icons" data-aos="zoom-in">
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/01026287818" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </div>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 1000});
+    </script>
+
+</body>
+</html>
